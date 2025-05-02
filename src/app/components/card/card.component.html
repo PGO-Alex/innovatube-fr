@@ -1,8 +1,11 @@
-<div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
+<span>Videos Favoritos</span>
+<div class="card" style="width: 33%; height: auto;">
+  <div id="ytplayer">
+    <iframe allow="fullscreen;" id="ytplayer" type="text/html" width="auto" height="auto" src='https://www.youtube.com/embed/YE7VzlLtp-4'
+      frameborder="0" controls="1"></iframe>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{video.video_title}}</h5>
+    <p class="card-text text-truncate">{{video.video_details}}</p>
+    <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
   </div>
